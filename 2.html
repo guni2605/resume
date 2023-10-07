@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form </title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <h1>GEEKS FOR GEEKS SURVEY FORM</h1>
+   <fieldset id="formlayout">
+    <form >
+       <div>  <!-- name -->
+        <label for="name" id="label-name">
+            Name :
+        </label>
+        <br>
+        <input type="text" id="name" placeholder="Enter your name">
+        
+       </div>
+       <br>
+       <div> <!-- email-->
+        <label for="email">Email ID :
+        </label>
+        <br>
+        <input type="email" id="email" placeholder="Enter your email">
+       </div>
+       <br>
+       <div>   <!--age-->
+        <label for="age">Age : </label>
+        <br>
+        <input type="text" id="age" placeholder="Enter your age">
+       </div>
+       <br>
+       <div>
+        <label for="role">   <!--option using radio button-->
+            "Which option best describe you most? "
+        </label>
+         <br>
+        <select name="option" id="role">
+        
+        <option value="student">Student</option>
+        <option value="intern">Intern</option>
+        <option value="professional">Professional</option>
+        <option value="other">Other</option>
+        </select>
+        
+       </div>
+       <br>
+       <div>
+        Would you recommend geeks for geeks to your friend?
+        <br>
+        <label for="radiobutton1">Yes</label>
+         <input type="radio" id="radiobutton1">
+         <label for="radiobutton2">No</label>
+         <input type="radio" id="radiobutton2">
+
+         <label for="radiobutton3">may be</label>
+         <input type="radio" id="radiobutton3">
+        </div>
+        <!-- checkbox -->
+        <br>
+        <div>
+            Languages and Framework you known (check all that apply)
+           <br>
+           <br>
+            <input type="checkbox" id="C">
+            <label for="c">C</label>
+            <br>
+            <input type="checkbox" id="Cpp">
+            <label for="cpp">C++</label>
+            <br>
+            <input type="checkbox" id="python">
+            <label for="python">Phython</label>
+            <br>
+            <input type="checkbox" id="Java">
+            <label for="Java">Java</label>
+            <br>
+            <input type="checkbox" id="Javascript">
+            <label for="Javascript">Javascript</label>
+            <br>
+            <input type="checkbox" id="HTML">
+            <label for="HTML">HTML</label>
+            <br>
+            <input type="checkbox" id="CSS">
+            <label for="CSS">CSS</label>
+        </div>
+        <br><br>
+        <div id="last">
+            <label for="txt1">Any Comments or suggestions :</label>
+            <br>
+            <br>
+            <textarea name="text1" id="txt1" cols="50" rows="3" >
+                
+            </textarea>
+        </div>
+        <div id="final">
+            <input type="submit" id="click">
+        </div>
+       
+    </form>
+   </fieldset>
+</body>
+</html>
